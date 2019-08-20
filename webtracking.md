@@ -11,7 +11,7 @@
       jssrc.async = 1;
       jssrc.src = url;
       dom.parentNode.insertBefore(jssrc, dom)
-    })(document,'http://www.madhouse.com/madAnalytics.js');
+    })(document,'http://track.madserving.com/bundle.js');
 </script>
 ```
 #### 在您的需要添加分析的页面逻辑中，调用madAnalytics方法，参数为您需要分析的事件信息。
